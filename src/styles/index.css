@@ -1,12 +1,47 @@
+@font-face {
+    font-family: 'JetBrains Mono Regular', sans-serif;
+    src: url(../src/fonts/JetBrainsMono-Regular.ttf);
+}
+
 body {
     background-color:rgb(20, 20, 20);
     color: white;
     font-family: 'Titillium Web', sans-serif;
 }
 
+.links {
+    margin-top: 900px;
+}
+
 .sociallink {
     animation-name: fadeIn;
     animation-duration: 3s;
+}
+
+.bio-font {
+    font-family: 'JetBrains Mono', sans-serif;
+}
+
+.bio, projects {
+    position: fixed;
+    background: rgb(25,25,25);
+    height: 400px;
+    width: 500px;
+    box-sizing: border-box;
+    max-width: 50vw;
+    box-shadow: 5px 10px 8px #373b3b31;
+    top: 50%;
+    left: 50%;
+    padding-left: 1%;
+    padding-right: 0.5%;
+    padding-bottom: 1%;
+    padding-top: 0%;
+    margin-top: -150px;
+    margin-left: -250px;
+}
+
+.bio-align-left {
+    text-align: left;
 }
 
 @keyframes fadeIn {
