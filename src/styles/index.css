@@ -25,10 +25,11 @@ body {
 .bio, projects {
     position: fixed;
     background: rgb(25,25,25);
-    height: 400px;
-    width: 500px;
+    height: 40%;
+    width: 30%;
     box-sizing: border-box;
     max-width: 50vw;
+    font-size: 100%;
     box-shadow: 5px 10px 8px #373b3b31;
     top: 50%;
     left: 50%;
@@ -36,8 +37,8 @@ body {
     padding-right: 0.5%;
     padding-bottom: 1%;
     padding-top: 0%;
-    margin-top: -150px;
-    margin-left: -250px;
+    margin-top: -10%;
+    margin-left: -15%;
 }
 
 .bio-align-left {
