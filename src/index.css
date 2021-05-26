@@ -5,16 +5,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
-.webring {
-    text-align: center;
-    position: fixed;
-    bottom: 8px;
-    left: 0px;
-    width: 100%;
-    overflow:auto;
-}
-
 .h1dance {
     margin-top: 0;
     margin: 0;
@@ -55,6 +45,7 @@ body {
     height: 125px;
     width: 125px;
 }
+
 .middle {
     position: absolute;
     transform: translate(-50%, -50%);
